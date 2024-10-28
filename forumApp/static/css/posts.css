@@ -1,0 +1,82 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #f3f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.no-posts {
+    text-align: center;
+}
+
+.posts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    position: relative; /* За да позиционираме бутоните вътре в този контейнер */
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden
+}
+
+.post h2 {
+    margin: 0;
+    color: #555;
+}
+
+.post p {
+    color: #666;
+}
+
+.post-meta {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    font-size: 0.9em;
+    color: #999;
+}
+
+/* Стилизиране на бутоните в горния десен ъгъл */
+.svg-buttons {
+    position: absolute;
+    top: 10px; /* Отстояние от горния край на публикацията */
+    right: 10px; /* Отстояние от десния край на публикацията */
+    display: flex;
+    gap: 10px; /* Разстояние между бутоните */
+}
+
+.svg-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.svg-buttons button:hover img {
+    opacity: 0.7; /* Ефект при ховър */
+}
+
+.svg-buttons img {
+    width: 16px;
+    height: 16px;
+}
