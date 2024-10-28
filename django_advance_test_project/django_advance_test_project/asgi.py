@@ -1,5 +1,5 @@
 """
-ASGI config for Dajngo_Advance_Test project.
+ASGI config for django_advance_test_project project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Dajngo_Advance_Test.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_advance_test_project.settings')
 
 application = get_asgi_application()
